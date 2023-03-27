@@ -3,6 +3,12 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: [
+      "links.papareact.com",
+      "aiimagegeneratoracbfe575.blob.core.windows.net",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
